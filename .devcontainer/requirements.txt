@@ -8,3 +8,5 @@ statsmodels
 sklearn
 pandas
 networkx
+ipykernel
+jupyter
