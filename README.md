@@ -34,6 +34,14 @@ VS Code Remote Developmentを使って，Python環境を作りました．
 - Reopen in Containerを選択．
 - ワークスペースが開いたら，terminalを開き，```python *.py```で実行する．
 
+### Jupyter notebook を使う
+![jupyter](./fig/jupyter_notebook.png "Jupyter notebook")
+
+Select kernelで，`/usr/local/bin/python` の入れたバージョンのものを選択する (同じのが複数出てきた場合はどちらか)．
+
+Jupyter notebook (Ipython notebook) を使うためには，`pip install ipykernel jupyter` が必要．
+
+
 ## いろいろ変えたいとき
 - ```pip install```するパッケージを変更したいとき
     - ```requirements.txt```を書き換える
